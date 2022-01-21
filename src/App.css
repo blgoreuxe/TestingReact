@@ -1,3 +1,48 @@
 .title {
-  padding: 10px
+  padding: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.headitems {
+  list-style-type: none;
+  margin-right: 10px
+}
+
+li {
+  padding: 20px;
+  display: inline-block;
+}
+
+li:hover {
+  background-color: rgb(37, 37, 37);
+}
+
+.title:hover {
+  background-color: rgb(37, 37, 37);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+li.active {
+  background-color: rgb(0, 8, 121);
+}
+
+.sub {
+  text-align: center;
+}
+
+.mostRecent {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.badge {
+  width: 25%;
+  padding-top: 10px
 }

@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
+    <header>
+      <h1 className="title">React Test Website</h1>
+    </header>
   );
 }
 
